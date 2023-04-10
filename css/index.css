@@ -366,7 +366,7 @@
   height: 320px;
   object-fit: cover;
 }
-.new-york1 {
+.text-perfect {
   position: absolute;
   top: 327px;
   left: 12px;
@@ -389,7 +389,7 @@
 .miles-away {
   left: 118px;
 }
-.new-york {
+.phap {
   position: absolute;
   top: 926px;
   left: 132px;
@@ -403,9 +403,9 @@
   left: 119px;
   line-height: 20px;
 }
-.amsterdam,
-.bhutan,
-.maldives {
+.amalfi,
+.canada,
+.dubai {
   position: absolute;
   top: 926px;
   left: 432px;
@@ -413,11 +413,11 @@
   height: 382px;
   color: var(--color-lightslategray);
 }
-.amsterdam,
-.bhutan {
+.amalfi,
+.canada {
   left: 732px;
 }
-.amsterdam {
+.amalfi {
   left: 1032px;
 }
 .image-9-icon {
