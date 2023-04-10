@@ -47,7 +47,7 @@
 }
 .guests5,
 .july-17-3,
-.tokyo3 {
+.dubai3 {
   position: absolute;
   top: 11px;
   left: 20px;
@@ -440,12 +440,13 @@
   font-weight: 300;
   color: var(--color-lightslategray);
 }
-.taito-city-tokyo {
+.taito-city-dubai {
   margin: 0;
   padding-left: 16px;
+  width: 200px;
 }
-.taito-city-tokyo-container {
-  position: absolute;
+.taito-city-dubai-container {
+  position:absolute;
   top: 44px;
   left: 131px;
   font-size: var(--font-inherit);
