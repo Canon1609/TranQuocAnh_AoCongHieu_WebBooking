@@ -7,6 +7,11 @@
     object-fit: cover;
 }
 
+.line-parent a:hover {
+    background-color: green;
+    color: green;
+}
+
 .discover4,
 .experiences5,
 .places-to-stay6 {
