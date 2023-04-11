@@ -12,6 +12,10 @@
     color: green;
 }
 
+.header5 a:hover {
+    background-color: green;
+}
+
 .places-to-stay5 {
     position: absolute;
     top: 0;
