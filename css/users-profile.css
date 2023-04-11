@@ -1,672 +1,785 @@
 .logo-icon1 {
-  position: absolute;
-  top: 24px;
-  left: 20px;
-  width: 96px;
-  height: 28px;
-  object-fit: cover;
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    width: 96px;
+    height: 28px;
+    object-fit: cover;
 }
+
 .discover1,
 .experiences2,
 .places-to-stay1 {
-  position: absolute;
-  height: 100%;
-  width: calc(100% - 213.33px);
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 213.33px);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .discover1,
 .experiences2 {
-  left: 106.67px;
+    left: 106.67px;
 }
+
 .discover1 {
-  left: 213.33px;
+    left: 213.33px;
 }
+
 .menu-items1 {
-  position: absolute;
-  height: calc(100% - 45px);
-  width: calc(100% - 1120px);
-  top: 22px;
-  right: 980px;
-  bottom: 23px;
-  left: 140px;
+    position: absolute;
+    height: calc(100% - 45px);
+    width: calc(100% - 1120px);
+    top: 22px;
+    right: 980px;
+    bottom: 23px;
+    left: 140px;
 }
+
 .avt-icon1,
 .bells-icon1,
 .globe-icon2 {
-  position: absolute;
-  top: 20px;
-  left: 1384px;
-  width: 36px;
-  height: 36px;
-  object-fit: cover;
+    position: absolute;
+    top: 20px;
+    left: 1384px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
 }
+
 .bells-icon1,
 .globe-icon2 {
-  top: 28px;
-  left: 1348px;
-  width: 20px;
-  height: 20px;
+    top: 28px;
+    left: 1348px;
+    width: 20px;
+    height: 20px;
 }
+
 .globe-icon2 {
-  left: 1276px;
+    left: 1276px;
 }
+
 .usd2 {
-  position: absolute;
-  top: 31px;
-  left: 1231px;
-  font-size: var(--font-size-xs);
-  color: var(--color-gray-200);
+    position: absolute;
+    top: 31px;
+    left: 1231px;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-200);
 }
+
 .chat-dogs-icon1 {
-  position: absolute;
-  top: 28px;
-  left: 1312px;
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
+    position: absolute;
+    top: 28px;
+    left: 1312px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
+
 .back1,
 .header1 {
-  position: absolute;
-  top: 0;
+    position: absolute;
+    top: 0;
 }
+
+.header1 a:hover {
+    background-color: green;
+}
+
 .header1 {
-  left: 0;
-  border-bottom: 1px solid var(--color-gray-600);
-  box-sizing: border-box;
-  width: 1440px;
-  height: 77px;
-  overflow: hidden;
-  text-align: center;
-  color: var(--color-darkslategray-100);
+    left: 0;
+    border-bottom: 1px solid var(--color-gray-600);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 77px;
+    overflow: hidden;
+    text-align: center;
+    color: var(--color-darkslategray-100);
 }
+
+.back a:hover {
+    background-color: green;
+    color: green;
+}
+
 .back1 {
-  left: 14px;
-  line-height: 20px;
-  display: flex;
-  align-items: center;
-  width: 28px;
-  height: 20px;
+    left: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    width: 28px;
+    height: 20px;
 }
+
 .caret-left-icon {
-  position: absolute;
-  top: 4px;
-  left: 0;
-  width: 12px;
-  height: 12px;
-  object-fit: cover;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
 }
+
 .account-settings,
 .back {
-  position: absolute;
-  left: 132px;
+    position: absolute;
+    left: 132px;
 }
+
 .back {
-  top: 120px;
-  width: 42px;
-  height: 20px;
-  font-size: var(--font-size-xs);
-  color: var(--color-dimgray-100);
+    top: 120px;
+    width: 42px;
+    height: 20px;
+    font-size: var(--font-size-xs);
+    color: var(--color-dimgray-100);
 }
+
 .account-settings {
-  top: 146px;
-  font-size: var(--font-size-13xl);
-  line-height: 48px;
-  font-family: var(--font-epilogue);
-  display: flex;
-  align-items: center;
-  width: 279px;
-  height: 48px;
+    top: 146px;
+    font-size: var(--font-size-13xl);
+    line-height: 48px;
+    font-family: var(--font-epilogue);
+    display: flex;
+    align-items: center;
+    width: 279px;
+    height: 48px;
 }
+
 .asset-icon,
 .basket-icon,
 .bell-icon,
 .card-icon,
 .user-icon {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 36px;
-  height: 36px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 36px;
+    height: 36px;
 }
+
 .asset-icon,
 .basket-icon,
 .bell-icon,
 .card-icon {
-  top: 84px;
+    top: 84px;
 }
+
 .asset-icon,
 .basket-icon,
 .bell-icon {
-  top: 148px;
+    top: 148px;
 }
+
 .asset-icon,
 .bell-icon {
-  top: 212px;
+    top: 212px;
 }
+
 .bell-icon {
-  top: 276px;
+    top: 276px;
 }
+
 .asset-3-1,
 .basket-icon1,
 .bell-icon1,
 .card-icon1,
 .user-icon1 {
-  position: absolute;
-  top: 30px;
-  left: 30px;
-  width: 16px;
-  height: 16px;
-  overflow: hidden;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
 }
+
 .asset-3-1,
 .basket-icon1,
 .bell-icon1,
 .card-icon1 {
-  top: 94px;
+    top: 94px;
 }
+
 .asset-3-1,
 .basket-icon1,
 .bell-icon1 {
-  top: 158px;
+    top: 158px;
 }
+
 .asset-3-1,
 .bell-icon1 {
-  top: 222px;
+    top: 222px;
 }
+
 .bell-icon1 {
-  top: 286px;
+    top: 286px;
 }
+
 .email-notification,
 .payment-details,
 .personal-info,
 .preferences,
 .security {
-  position: absolute;
-  left: 68px;
-  line-height: 26px;
-  display: flex;
-  align-items: center;
+    position: absolute;
+    left: 68px;
+    line-height: 26px;
+    display: flex;
+    align-items: center;
 }
+
 .personal-info {
-  top: 25px;
-  color: var(--color-darkturquoise);
-  width: 99px;
-  height: 26px;
+    top: 25px;
+    color: var(--color-darkturquoise);
+    width: 99px;
+    height: 26px;
 }
+
 .email-notification,
 .payment-details,
 .preferences,
 .security {
-  top: 89px;
-  width: 126px;
-  height: 22px;
+    top: 89px;
+    width: 126px;
+    height: 22px;
 }
+
 .email-notification,
 .preferences,
 .security {
-  top: 153px;
-  width: 63px;
-  height: 26px;
+    top: 153px;
+    width: 63px;
+    height: 26px;
 }
+
 .email-notification,
 .preferences {
-  top: 217px;
-  width: 92px;
+    top: 217px;
+    width: 92px;
 }
+
 .email-notification {
-  top: 281px;
-  width: 130px;
+    top: 281px;
+    width: 130px;
 }
+
 .menu {
-  position: absolute;
-  top: 227px;
-  left: 131px;
-  border-radius: var(--br-9xs);
-  border: 1px solid var(--color-gray-600);
-  box-sizing: border-box;
-  width: 299px;
-  height: 332px;
-  overflow: hidden;
-  font-size: var(--font-size-base);
-  color: var(--color-darkslategray-200);
+    position: absolute;
+    top: 227px;
+    left: 131px;
+    border-radius: var(--br-9xs);
+    border: 1px solid var(--color-gray-600);
+    box-sizing: border-box;
+    width: 299px;
+    height: 332px;
+    overflow: hidden;
+    font-size: var(--font-size-base);
+    color: var(--color-darkslategray-200);
 }
+
 .avt-icon2 {
-  position: absolute;
-  top: 232px;
-  left: 527px;
-  width: 68px;
-  height: 64px;
+    position: absolute;
+    top: 232px;
+    left: 527px;
+    width: 68px;
+    height: 64px;
 }
+
 .line-div,
 .profile-child,
 .profile-child1,
 .profile-inner,
 .profile-item {
-  position: absolute;
-  top: 57.5px;
-  left: -0.5px;
-  border-top: 1px solid var(--color-gainsboro);
-  box-sizing: border-box;
-  width: 782px;
-  height: 1px;
+    position: absolute;
+    top: 57.5px;
+    left: -0.5px;
+    border-top: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 782px;
+    height: 1px;
 }
+
 .line-div,
 .profile-child1,
 .profile-inner,
 .profile-item {
-  top: 142.5px;
+    top: 142.5px;
 }
+
 .line-div,
 .profile-child1,
 .profile-inner {
-  top: 227.5px;
+    top: 227.5px;
 }
+
 .line-div,
 .profile-child1 {
-  top: 312.5px;
+    top: 312.5px;
 }
+
 .profile-child1 {
-  top: 397.5px;
+    top: 397.5px;
 }
+
 .edit {
-  top: 5px;
-  left: 755px;
-  text-decoration: underline;
+    top: 5px;
+    left: 755px;
+    text-decoration: underline;
 }
+
 .add,
 .edit,
 .edit1 {
-  position: absolute;
-  line-height: 22px;
+    position: absolute;
+    line-height: 22px;
 }
+
 .add {
-  top: 430px;
-  left: 755px;
-  text-decoration: underline;
+    top: 430px;
+    left: 755px;
+    text-decoration: underline;
 }
+
 .edit1 {
-  top: 90px;
+    top: 90px;
 }
+
 .edit1,
 .edit2,
 .edit3 {
-  left: 755px;
-  text-decoration: underline;
+    left: 755px;
+    text-decoration: underline;
 }
+
 .edit2 {
-  position: absolute;
-  top: 175px;
-  line-height: 22px;
+    position: absolute;
+    top: 175px;
+    line-height: 22px;
 }
+
 .edit3 {
-  top: 260px;
+    top: 260px;
 }
+
 .edit3,
 .edit4,
 .full-name {
-  position: absolute;
-  line-height: 22px;
+    position: absolute;
+    line-height: 22px;
 }
+
 .edit4 {
-  top: 345px;
-  left: 755px;
-  text-decoration: underline;
+    top: 345px;
+    left: 755px;
+    text-decoration: underline;
 }
+
 .full-name {
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  width: 102px;
-  height: 29px;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    width: 102px;
+    height: 29px;
 }
+
 .jimmy-scott {
-  top: 26px;
-  line-height: 22px;
+    top: 26px;
+    line-height: 22px;
 }
+
 .email,
 .email1,
 .jimmy-scott,
 .name {
-  position: absolute;
-  left: 0;
+    position: absolute;
+    left: 0;
 }
+
 .name {
-  top: 0;
-  width: 102px;
-  height: 52px;
-  overflow: hidden;
-  color: var(--color-gray-200);
+    top: 0;
+    width: 102px;
+    height: 52px;
+    overflow: hidden;
+    color: var(--color-gray-200);
 }
+
 .email,
 .email1 {
-  width: 215px;
+    width: 215px;
 }
+
 .email1 {
-  top: 0;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  height: 29px;
+    top: 0;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    height: 29px;
 }
+
 .email {
-  top: 75px;
-  height: 52px;
-  overflow: hidden;
-  color: var(--color-gray-200);
+    top: 75px;
+    height: 52px;
+    overflow: hidden;
+    color: var(--color-gray-200);
 }
+
 .gender,
 .gender1 {
-  position: absolute;
-  left: 0;
-  width: 117px;
+    position: absolute;
+    left: 0;
+    width: 117px;
 }
+
 .gender1 {
-  top: 0;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  height: 29px;
+    top: 0;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    height: 29px;
 }
+
 .gender {
-  top: 160px;
-  height: 52px;
-  overflow: hidden;
-  color: var(--color-gray-200);
+    top: 160px;
+    height: 52px;
+    overflow: hidden;
+    color: var(--color-gray-200);
 }
+
 .date-of-birth,
 .dateofbirth {
-  position: absolute;
-  left: 0;
-  width: 174px;
+    position: absolute;
+    left: 0;
+    width: 174px;
 }
+
 .date-of-birth {
-  top: 3px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
+    top: 3px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
 }
+
 .dateofbirth {
-  top: 245px;
-  height: 52px;
-  overflow: hidden;
-  color: var(--color-gray-200);
+    top: 245px;
+    height: 52px;
+    overflow: hidden;
+    color: var(--color-gray-200);
 }
+
 .phone,
 .phone-number {
-  position: absolute;
-  left: 0;
-  width: 157px;
+    position: absolute;
+    left: 0;
+    width: 157px;
 }
+
 .phone-number {
-  top: 3px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
+    top: 3px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
 }
+
 .phone {
-  top: 330px;
-  height: 52px;
-  overflow: hidden;
-  color: var(--color-gray-200);
+    top: 330px;
+    height: 52px;
+    overflow: hidden;
+    color: var(--color-gray-200);
 }
+
 .emergency-contact,
 .not-provided {
-  position: absolute;
-  left: 0;
-  line-height: 22px;
+    position: absolute;
+    left: 0;
+    line-height: 22px;
 }
+
 .emergency-contact {
-  top: 3px;
-  display: flex;
-  align-items: center;
-  width: 179px;
+    top: 3px;
+    display: flex;
+    align-items: center;
+    width: 179px;
 }
+
 .not-provided {
-  top: 26px;
-  color: #bcc1ca;
+    top: 26px;
+    color: #bcc1ca;
 }
+
 .emergency {
-  position: absolute;
-  top: 415px;
-  left: 0;
-  width: 179px;
-  height: 52px;
-  overflow: hidden;
-  color: var(--color-gray-200);
+    position: absolute;
+    top: 415px;
+    left: 0;
+    width: 179px;
+    height: 52px;
+    overflow: hidden;
+    color: var(--color-gray-200);
 }
+
 .profile {
-  position: absolute;
-  top: 338px;
-  left: 527px;
-  width: 782px;
-  height: 467px;
-  color: var(--color-darkslategray-200);
+    position: absolute;
+    top: 338px;
+    left: 527px;
+    width: 782px;
+    height: 467px;
+    color: var(--color-darkslategray-200);
 }
+
 .support3 {
-  position: absolute;
-  top: -4px;
-  left: 0;
-  font-size: var(--font-size-xl);
+    position: absolute;
+    top: -4px;
+    left: 0;
+    font-size: var(--font-size-xl);
 }
+
 .irure-in-molli1,
 .officia-sit-laborum1 {
-  position: absolute;
-  top: 42px;
-  left: 0;
+    position: absolute;
+    top: 42px;
+    left: 0;
 }
+
 .officia-sit-laborum1 {
-  top: 76px;
+    top: 76px;
 }
+
 .lorem-ea-quis1,
 .support2 {
-  position: absolute;
-  top: 110px;
-  left: 0;
+    position: absolute;
+    top: 110px;
+    left: 0;
 }
+
 .support2 {
-  top: 40px;
-  left: 132px;
-  width: 139px;
-  height: 132px;
-  overflow: hidden;
+    top: 40px;
+    left: 132px;
+    width: 139px;
+    height: 132px;
+    overflow: hidden;
 }
+
 .community3 {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: var(--font-size-xl);
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-xl);
 }
+
 .about2,
 .community2 {
-  position: absolute;
-  top: 40px;
-  left: 399px;
-  width: 127px;
-  height: 132px;
-  overflow: hidden;
+    position: absolute;
+    top: 40px;
+    left: 399px;
+    width: 127px;
+    height: 132px;
+    overflow: hidden;
 }
+
 .about2 {
-  left: 654px;
-  width: 64px;
+    left: 654px;
+    width: 64px;
 }
+
 .for-announcements-and1 {
-  position: absolute;
-  top: 31px;
-  left: 0;
-  color: var(--color-darkslategray-100);
+    position: absolute;
+    top: 31px;
+    left: 0;
+    color: var(--color-darkslategray-100);
 }
+
 .input-your-email2,
 .subscribe2 {
-  position: absolute;
-  top: 62px;
-  border-radius: var(--br-9xs);
-  height: 36px;
+    position: absolute;
+    top: 62px;
+    border-radius: var(--br-9xs);
+    height: 36px;
 }
+
 .input-your-email2 {
-  left: 0;
-  background-color: var(--color-whitesmoke);
-  border: 1px solid var(--color-lightslategray);
-  box-sizing: border-box;
-  width: 224px;
+    left: 0;
+    background-color: var(--color-whitesmoke);
+    border: 1px solid var(--color-lightslategray);
+    box-sizing: border-box;
+    width: 224px;
 }
+
 .subscribe2 {
-  left: 232px;
-  background-color: var(--color-darkturquoise);
-  width: 102px;
+    left: 232px;
+    background-color: var(--color-darkturquoise);
+    width: 102px;
 }
+
 .subscribe3 {
-  position: absolute;
-  top: 71px;
-  left: 250px;
-  font-size: var(--font-size-sm);
-  color: var(--color-white);
+    position: absolute;
+    top: 71px;
+    left: 250px;
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
 }
+
 .input-your-email3 {
-  position: absolute;
-  top: 72px;
-  left: 34px;
-  color: var(--color-lightslategray);
+    position: absolute;
+    top: 72px;
+    left: 34px;
+    color: var(--color-lightslategray);
 }
+
 .input1,
 .left-icon-11 {
-  position: absolute;
-  top: 72px;
-  left: 11px;
-  width: 16px;
-  height: 16px;
-  overflow: hidden;
+    position: absolute;
+    top: 72px;
+    left: 11px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
 }
+
 .input1 {
-  top: 40px;
-  left: 846px;
-  width: 334px;
-  height: 98px;
-  font-size: var(--font-size-xs);
+    top: 40px;
+    left: 846px;
+    width: 334px;
+    height: 98px;
+    font-size: var(--font-size-xs);
 }
+
 .footer-item {
-  position: absolute;
-  top: 211.5px;
-  left: 131.5px;
-  border-top: 1px solid var(--color-gainsboro);
-  box-sizing: border-box;
-  width: 1177px;
-  height: 1px;
+    position: absolute;
+    top: 211.5px;
+    left: 131.5px;
+    border-top: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 1177px;
+    height: 1px;
 }
+
 .company-inc1,
 .div7 {
-  position: absolute;
-  top: 0;
+    position: absolute;
+    top: 0;
 }
+
 .company-inc1 {
-  left: 0;
-  font-size: var(--font-size-sm);
-  display: flex;
-  align-items: center;
-  width: 150px;
-  height: 22px;
+    left: 0;
+    font-size: var(--font-size-sm);
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 22px;
 }
+
 .div7 {
-  left: 154px;
-  width: 8px;
+    left: 154px;
+    width: 8px;
 }
+
 .div7,
 .div8,
 .privacy1 {
-  display: flex;
-  align-items: center;
-  height: 22px;
+    display: flex;
+    align-items: center;
+    height: 22px;
 }
+
 .div8 {
-  position: absolute;
-  top: 0;
-  left: 219px;
-  width: 8px;
+    position: absolute;
+    top: 0;
+    left: 219px;
+    width: 8px;
 }
+
 .privacy1 {
-  left: 166px;
-  width: 49px;
+    left: 166px;
+    width: 49px;
 }
+
 .ins-icon1,
 .privacy1,
 .terms1 {
-  position: absolute;
-  top: 0;
+    position: absolute;
+    top: 0;
 }
+
 .terms1 {
-  left: 231px;
-  display: flex;
-  align-items: center;
-  width: 42px;
-  height: 22px;
+    left: 231px;
+    display: flex;
+    align-items: center;
+    width: 42px;
+    height: 22px;
 }
+
 .ins-icon1 {
-  left: 1156px;
-  height: 20px;
+    left: 1156px;
+    height: 20px;
 }
+
 .fb-icon1,
 .globe-icon3,
 .ins-icon1 {
-  width: 20px;
-  object-fit: cover;
+    width: 20px;
+    object-fit: cover;
 }
+
 .fb-icon1 {
-  position: absolute;
-  top: 0;
-  left: 1084px;
-  height: 20px;
+    position: absolute;
+    top: 0;
+    left: 1084px;
+    height: 20px;
 }
+
 .globe-icon3 {
-  left: 1048px;
+    left: 1048px;
 }
+
 .globe-icon3,
 .twitter-icon1,
 .usd3 {
-  position: absolute;
-  top: 0;
-  height: 20px;
+    position: absolute;
+    top: 0;
+    height: 20px;
 }
+
 .twitter-icon1 {
-  left: 1120px;
-  width: 20px;
-  object-fit: cover;
+    left: 1120px;
+    width: 20px;
+    object-fit: cover;
 }
+
 .usd3 {
-  left: 1006px;
-  display: flex;
-  align-items: center;
-  width: 26px;
+    left: 1006px;
+    display: flex;
+    align-items: center;
+    width: 26px;
 }
+
 .company-inc-group {
-  position: absolute;
-  top: 233px;
-  left: 132px;
-  width: 1176px;
-  height: 22px;
-  font-size: var(--font-size-xs);
+    position: absolute;
+    top: 233px;
+    left: 132px;
+    width: 1176px;
+    height: 22px;
+    font-size: var(--font-size-xs);
 }
+
 .footer1 {
-  position: absolute;
-  top: 905px;
-  left: 0;
-  background-color: var(--color-whitesmoke);
-  width: 1440px;
-  height: 275px;
-  overflow: hidden;
+    position: absolute;
+    top: 905px;
+    left: 0;
+    background-color: var(--color-whitesmoke);
+    width: 1440px;
+    height: 275px;
+    overflow: hidden;
 }
+
 .users-profile {
-  position: relative;
-  background-color: var(--color-white);
-  width: 100%;
-  height: 1176px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-200);
-  font-family: var(--font-inter);
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 1176px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+    font-family: var(--font-inter);
 }
