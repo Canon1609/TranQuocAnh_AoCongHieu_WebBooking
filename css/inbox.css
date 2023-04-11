@@ -1,708 +1,808 @@
 .logo-icon2 {
-  position: absolute;
-  top: 24px;
-  left: 20px;
-  width: 96px;
-  height: 28px;
-  object-fit: cover;
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    width: 96px;
+    height: 28px;
+    object-fit: cover;
 }
+
 .discover2,
 .experiences3,
 .places-to-stay2 {
-  position: absolute;
-  height: 100%;
-  width: calc(100% - 213.33px);
-  top: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 213.33px);
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.header2 a:hover {
+    background-color: green;
+    color: green;
+}
+
 .discover2,
 .experiences3 {
-  left: 106.67px;
+    left: 106.67px;
 }
+
 .discover2 {
-  left: 213.33px;
+    left: 213.33px;
 }
+
 .menu-items2 {
-  position: absolute;
-  height: calc(100% - 45px);
-  width: calc(100% - 1120px);
-  top: 22px;
-  right: 980px;
-  bottom: 23px;
-  left: 140px;
+    position: absolute;
+    height: calc(100% - 45px);
+    width: calc(100% - 1120px);
+    top: 22px;
+    right: 980px;
+    bottom: 23px;
+    left: 140px;
 }
+
 .avt-icon3,
 .bells-icon2,
 .globe-icon4 {
-  position: absolute;
-  top: 20px;
-  left: 1384px;
-  width: 36px;
-  height: 36px;
-  object-fit: cover;
+    position: absolute;
+    top: 20px;
+    left: 1384px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
 }
+
 .bells-icon2,
 .globe-icon4 {
-  top: 28px;
-  left: 1348px;
-  width: 20px;
-  height: 20px;
+    top: 28px;
+    left: 1348px;
+    width: 20px;
+    height: 20px;
 }
+
 .globe-icon4 {
-  left: 1276px;
+    left: 1276px;
 }
+
 .usd4 {
-  position: absolute;
-  top: 31px;
-  left: 1231px;
-  font-size: var(--font-size-xs);
-  color: var(--color-gray-200);
+    position: absolute;
+    top: 31px;
+    left: 1231px;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-200);
 }
+
 .chat-dogs-icon2 {
-  position: absolute;
-  top: 28px;
-  left: 1312px;
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
+    position: absolute;
+    top: 28px;
+    left: 1312px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
+
 .header2,
 .messages {
-  position: absolute;
-  text-align: center;
+    position: absolute;
+    text-align: center;
 }
+
 .header2 {
-  top: 0;
-  left: 0;
-  border-bottom: 1px solid var(--color-gray-600);
-  box-sizing: border-box;
-  width: 1440px;
-  height: 77px;
-  overflow: hidden;
-  color: var(--color-darkslategray-100);
+    top: 0;
+    left: 0;
+    border-bottom: 1px solid var(--color-gray-600);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 77px;
+    overflow: hidden;
+    color: var(--color-darkslategray-100);
 }
+
 .messages {
-  top: 36px;
-  left: 24px;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-epilogue);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 101px;
-  height: 30px;
+    top: 36px;
+    left: 24px;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-epilogue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 101px;
+    height: 30px;
 }
+
 .div9,
 .high-tide-hotel {
-  top: 20px;
-  justify-content: center;
-  height: 26px;
+    top: 20px;
+    justify-content: center;
+    height: 26px;
 }
+
 .high-tide-hotel {
-  position: absolute;
-  left: 68px;
-  display: flex;
-  align-items: center;
-  width: 121px;
+    position: absolute;
+    left: 68px;
+    display: flex;
+    align-items: center;
+    width: 121px;
 }
+
 .div9 {
-  left: 191px;
-  font-family: var(--font-epilogue);
-  width: 9px;
+    left: 191px;
+    font-family: var(--font-epilogue);
+    width: 9px;
 }
+
 .culpa-id-sit,
 .div9,
 .tokyo,
 .upcoming-trip-jul {
-  position: absolute;
-  display: flex;
-  align-items: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
 }
+
 .tokyo {
-  top: 20px;
-  left: 202px;
-  justify-content: center;
-  width: 50px;
-  height: 26px;
+    top: 20px;
+    left: 202px;
+    justify-content: center;
+    width: 50px;
+    height: 26px;
 }
+
 .culpa-id-sit,
 .upcoming-trip-jul {
-  top: 54px;
-  left: 68px;
-  font-size: var(--font-size-sm);
-  text-align: left;
-  width: 182px;
-  height: 22px;
+    top: 54px;
+    left: 68px;
+    font-size: var(--font-size-sm);
+    text-align: left;
+    width: 182px;
+    height: 22px;
 }
+
 .upcoming-trip-jul {
-  top: 78px;
-  font-size: var(--font-size-xs);
-  color: var(--color-darkslategray-100);
-  width: 180px;
-  height: 20px;
+    top: 78px;
+    font-size: var(--font-size-xs);
+    color: var(--color-darkslategray-100);
+    width: 180px;
+    height: 20px;
 }
+
 .avt-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 36px;
-  height: 36px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 36px;
+    height: 36px;
 }
+
 .h {
-  top: 9px;
-  left: 13px;
+    top: 9px;
+    left: 13px;
 }
+
 .avt,
 .cmt1,
 .h {
-  position: absolute;
+    position: absolute;
 }
+
 .avt {
-  top: 20px;
-  left: 20px;
-  width: 36px;
-  height: 36px;
-  text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--color-white);
+    top: 20px;
+    left: 20px;
+    width: 36px;
+    height: 36px;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
 }
+
 .cmt1 {
-  top: 82px;
-  left: 24px;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-whitesmoke-100);
-  width: 357px;
-  height: 118px;
-  overflow: hidden;
-  text-align: center;
+    top: 82px;
+    left: 24px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke-100);
+    width: 357px;
+    height: 118px;
+    overflow: hidden;
+    text-align: center;
 }
+
 .avt-icon4 {
-  position: absolute;
-  top: 20px;
-  left: 20px;
-  width: 36px;
-  height: 36px;
-  object-fit: cover;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
 }
+
 .completed-trip-dev,
 .dani-bender,
 .div10,
 .eu-elit-occaecat,
 .spain {
-  position: absolute;
-  top: 20px;
-  left: 68px;
-  display: flex;
-  align-items: center;
-  width: 96px;
-  height: 26px;
+    position: absolute;
+    top: 20px;
+    left: 68px;
+    display: flex;
+    align-items: center;
+    width: 96px;
+    height: 26px;
 }
+
 .completed-trip-dev,
 .div10,
 .eu-elit-occaecat,
 .spain {
-  left: 177px;
-  width: 45px;
+    left: 177px;
+    width: 45px;
 }
+
 .completed-trip-dev,
 .div10,
 .eu-elit-occaecat {
-  left: 166px;
-  width: 9px;
+    left: 166px;
+    width: 9px;
 }
+
 .completed-trip-dev,
 .eu-elit-occaecat {
-  top: 50px;
-  left: 68px;
-  font-size: var(--font-size-sm);
-  width: 162px;
-  height: 22px;
+    top: 50px;
+    left: 68px;
+    font-size: var(--font-size-sm);
+    width: 162px;
+    height: 22px;
 }
+
 .completed-trip-dev {
-  top: 78px;
-  font-size: var(--font-size-xs);
-  color: var(--color-lightslategray);
-  width: 190px;
-  height: 20px;
+    top: 78px;
+    font-size: var(--font-size-xs);
+    color: var(--color-lightslategray);
+    width: 190px;
+    height: 20px;
 }
+
 .cmt2 {
-  position: absolute;
-  top: 200px;
-  left: 24px;
-  border-radius: var(--br-7xs);
-  border-bottom: 1px solid var(--color-gray-600);
-  box-sizing: border-box;
-  width: 357px;
-  height: 119px;
-  overflow: hidden;
+    position: absolute;
+    top: 200px;
+    left: 24px;
+    border-radius: var(--br-7xs);
+    border-bottom: 1px solid var(--color-gray-600);
+    box-sizing: border-box;
+    width: 357px;
+    height: 119px;
+    overflow: hidden;
 }
+
 .anim-nisi-elit,
 .completed-trip-aug,
 .div11,
 .france,
 .outpost-hotel {
-  position: absolute;
-  top: 20px;
-  left: 68px;
-  display: flex;
-  align-items: center;
-  width: 110px;
-  height: 26px;
+    position: absolute;
+    top: 20px;
+    left: 68px;
+    display: flex;
+    align-items: center;
+    width: 110px;
+    height: 26px;
 }
+
 .anim-nisi-elit,
 .completed-trip-aug,
 .div11,
 .france {
-  left: 180px;
-  width: 9px;
+    left: 180px;
+    width: 9px;
 }
+
 .anim-nisi-elit,
 .completed-trip-aug,
 .france {
-  left: 191px;
-  width: 55px;
+    left: 191px;
+    width: 55px;
 }
+
 .anim-nisi-elit,
 .completed-trip-aug {
-  top: 50px;
-  left: 68px;
-  font-size: var(--font-size-sm);
-  width: 171px;
-  height: 22px;
+    top: 50px;
+    left: 68px;
+    font-size: var(--font-size-sm);
+    width: 171px;
+    height: 22px;
 }
+
 .completed-trip-aug {
-  top: 78px;
-  font-size: var(--font-size-xs);
-  color: var(--color-lightslategray);
-  width: 191px;
-  height: 20px;
+    top: 78px;
+    font-size: var(--font-size-xs);
+    color: var(--color-lightslategray);
+    width: 191px;
+    height: 20px;
 }
+
 .avt1,
 .cmt3 {
-  position: absolute;
+    position: absolute;
 }
+
 .avt1 {
-  top: 20px;
-  left: 20px;
-  width: 36px;
-  height: 36px;
-  font-size: var(--font-size-sm);
-  color: var(--color-white);
+    top: 20px;
+    left: 20px;
+    width: 36px;
+    height: 36px;
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
 }
+
 .cmt3 {
-  top: 319px;
-  left: 24px;
-  border-bottom: 1px solid var(--color-gray-600);
-  box-sizing: border-box;
-  width: 357px;
-  height: 119px;
-  overflow: hidden;
+    top: 319px;
+    left: 24px;
+    border-bottom: 1px solid var(--color-gray-600);
+    box-sizing: border-box;
+    width: 357px;
+    height: 119px;
+    overflow: hidden;
 }
+
 .div12,
 .lyra-henry,
 .new-york2,
 .ullamco-aliquip-eu {
-  position: absolute;
-  top: 20px;
-  left: 68px;
-  display: flex;
-  align-items: center;
-  width: 86px;
-  height: 26px;
+    position: absolute;
+    top: 20px;
+    left: 68px;
+    display: flex;
+    align-items: center;
+    width: 86px;
+    height: 26px;
 }
+
 .div12,
 .new-york2,
 .ullamco-aliquip-eu {
-  left: 156px;
-  width: 9px;
+    left: 156px;
+    width: 9px;
 }
+
 .new-york2,
 .ullamco-aliquip-eu {
-  left: 167px;
-  width: 76px;
+    left: 167px;
+    width: 76px;
 }
+
 .ullamco-aliquip-eu {
-  top: 50px;
-  left: 68px;
-  font-size: var(--font-size-sm);
-  width: 166px;
-  height: 22px;
+    top: 50px;
+    left: 68px;
+    font-size: var(--font-size-sm);
+    width: 166px;
+    height: 22px;
 }
+
 .cmt4,
 .inbox-left {
-  position: absolute;
-  overflow: hidden;
+    position: absolute;
+    overflow: hidden;
 }
+
 .cmt4 {
-  top: 438px;
-  left: 24px;
-  border-radius: var(--br-7xs);
-  width: 357px;
-  height: 118px;
+    top: 438px;
+    left: 24px;
+    border-radius: var(--br-7xs);
+    width: 357px;
+    height: 118px;
 }
+
 .inbox-left {
-  top: 77px;
-  left: 0;
-  width: 405px;
-  height: 556px;
-  font-size: var(--font-size-base);
+    top: 77px;
+    left: 0;
+    width: 405px;
+    height: 556px;
+    font-size: var(--font-size-base);
 }
+
 .div13,
 .high-tide-hotel1 {
-  top: 36px;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-epilogue);
-  height: 30px;
+    top: 36px;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-epilogue);
+    height: 30px;
 }
+
 .high-tide-hotel1 {
-  position: absolute;
-  left: 24px;
-  display: flex;
-  align-items: center;
-  width: 147px;
+    position: absolute;
+    left: 24px;
+    display: flex;
+    align-items: center;
+    width: 147px;
 }
+
 .div13 {
-  left: 173px;
-  width: 8px;
+    left: 173px;
+    width: 8px;
 }
+
 .div13,
 .mollit-et-cillum,
 .tokyo1 {
-  position: absolute;
-  display: flex;
-  align-items: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
 }
+
 .tokyo1 {
-  top: 36px;
-  left: 183px;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-epilogue);
-  width: 56px;
-  height: 30px;
+    top: 36px;
+    left: 183px;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-epilogue);
+    width: 56px;
+    height: 30px;
 }
+
 .mollit-et-cillum {
-  top: 12px;
-  left: 16px;
-  line-height: 22px;
-  width: 255px;
-  height: 66px;
+    top: 12px;
+    left: 16px;
+    line-height: 22px;
+    width: 255px;
+    height: 66px;
 }
+
 .tn1 {
-  position: absolute;
-  top: 430px;
-  left: 58px;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-whitesmoke-100);
-  width: 287px;
-  height: 90px;
-  overflow: hidden;
+    position: absolute;
+    top: 430px;
+    left: 58px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke-100);
+    width: 287px;
+    height: 90px;
+    overflow: hidden;
 }
+
 .lorem-amet-aute {
-  position: absolute;
-  top: 12px;
-  left: 16px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  width: 255px;
-  height: 44px;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    width: 255px;
+    height: 44px;
 }
+
 .tn2 {
-  position: absolute;
-  top: 544px;
-  left: 311px;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-cornflowerblue);
-  width: 287px;
-  height: 68px;
-  overflow: hidden;
-  color: var(--color-white);
+    position: absolute;
+    top: 544px;
+    left: 311px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-cornflowerblue);
+    width: 287px;
+    height: 68px;
+    overflow: hidden;
+    color: var(--color-white);
 }
+
 .ad-eu-exercitation {
-  position: absolute;
-  top: 12px;
-  left: 16px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  width: 156px;
-  height: 22px;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    width: 156px;
+    height: 22px;
 }
+
 .tn3 {
-  position: absolute;
-  top: 614px;
-  left: 410px;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-cornflowerblue);
-  width: 188px;
-  height: 46px;
-  overflow: hidden;
-  color: var(--color-white);
+    position: absolute;
+    top: 614px;
+    left: 410px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-cornflowerblue);
+    width: 188px;
+    height: 46px;
+    overflow: hidden;
+    color: var(--color-white);
 }
+
 .anim-et-occaecat {
-  position: absolute;
-  top: 12px;
-  left: 16px;
-  line-height: 22px;
-  display: flex;
-  align-items: center;
-  width: 205px;
-  height: 22px;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    width: 205px;
+    height: 22px;
 }
+
 .tn4 {
-  position: absolute;
-  top: 684px;
-  left: 58px;
-  border-radius: var(--br-5xs);
-  background-color: var(--color-whitesmoke-100);
-  width: 237px;
-  height: 46px;
-  overflow: hidden;
+    position: absolute;
+    top: 684px;
+    left: 58px;
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke-100);
+    width: 237px;
+    height: 46px;
+    overflow: hidden;
 }
+
 .inbox-center-child {
-  position: absolute;
-  top: 81.5px;
-  left: -0.5px;
-  border-top: 1px solid var(--color-gainsboro);
-  box-sizing: border-box;
-  width: 623px;
-  height: 1px;
+    position: absolute;
+    top: 81.5px;
+    left: -0.5px;
+    border-top: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 623px;
+    height: 1px;
 }
+
 .image-icon,
 .map-icon,
 .paper-plane-right-2,
 .paperclip-icon {
-  position: absolute;
-  top: 22px;
-  left: 24px;
-  width: 24px;
-  height: 24px;
-  object-fit: cover;
+    position: absolute;
+    top: 22px;
+    left: 24px;
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
 }
+
 .image-icon,
 .map-icon,
 .paper-plane-right-2 {
-  left: 60px;
+    left: 60px;
 }
+
 .map-icon,
 .paper-plane-right-2 {
-  left: 96px;
+    left: 96px;
 }
+
 .paper-plane-right-2 {
-  left: 574px;
+    left: 574px;
 }
+
 .inbox-child {
-  position: absolute;
-  top: 16px;
-  left: 132px;
-  border-radius: var(--br-9xs);
-  background-color: var(--color-white);
-  border: 1px solid rgba(144, 149, 160, 0.9);
-  box-sizing: border-box;
-  width: 430px;
-  height: 36px;
+    position: absolute;
+    top: 16px;
+    left: 132px;
+    border-radius: var(--br-9xs);
+    background-color: var(--color-white);
+    border: 1px solid rgba(144, 149, 160, 0.9);
+    box-sizing: border-box;
+    width: 430px;
+    height: 36px;
 }
+
 .type-a-message {
-  position: absolute;
-  top: 28px;
-  left: 144px;
-  display: flex;
-  align-items: center;
-  width: 122px;
-  height: 14px;
+    position: absolute;
+    top: 28px;
+    left: 144px;
+    display: flex;
+    align-items: center;
+    width: 122px;
+    height: 14px;
 }
+
 .right-icon-3 {
-  position: absolute;
-  top: 26px;
-  left: 531px;
-  width: 16px;
-  height: 16px;
-  overflow: hidden;
+    position: absolute;
+    top: 26px;
+    left: 531px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
 }
+
 .avt-inner,
 .inbox1 {
-  position: absolute;
-  left: 0;
+    position: absolute;
+    left: 0;
 }
+
 .inbox1 {
-  top: 754px;
-  border-top: 1px solid var(--color-gainsboro);
-  box-sizing: border-box;
-  width: 622px;
-  height: 69px;
-  overflow: hidden;
-  color: var(--color-lightslategray);
+    top: 754px;
+    border-top: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 622px;
+    height: 69px;
+    overflow: hidden;
+    color: var(--color-lightslategray);
 }
+
 .avt-inner {
-  top: 0;
-  width: 28px;
-  height: 28px;
+    top: 0;
+    width: 28px;
+    height: 28px;
 }
+
 .avt2,
 .avt3,
 .h1 {
-  position: absolute;
-  top: 5px;
-  left: 9px;
+    position: absolute;
+    top: 5px;
+    left: 9px;
 }
+
 .avt2,
 .avt3 {
-  top: 686px;
-  left: 24px;
-  width: 28px;
-  height: 28px;
-  color: var(--color-white);
+    top: 686px;
+    left: 24px;
+    width: 28px;
+    height: 28px;
+    color: var(--color-white);
 }
+
 .avt3 {
-  top: 432px;
+    top: 432px;
 }
+
 .inbox-center,
 .inbox-right-child {
-  position: absolute;
-  box-sizing: border-box;
+    position: absolute;
+    box-sizing: border-box;
 }
+
 .inbox-center {
-  top: 76px;
-  left: 391px;
-  border-right: 1px solid var(--color-gray-600);
-  border-left: 1px solid var(--color-gray-600);
-  width: 622px;
-  height: 823px;
-  overflow: hidden;
+    top: 76px;
+    left: 391px;
+    border-right: 1px solid var(--color-gray-600);
+    border-left: 1px solid var(--color-gray-600);
+    width: 622px;
+    height: 823px;
+    overflow: hidden;
 }
+
 .inbox-right-child {
-  top: 81.5px;
-  left: -0.5px;
-  border-top: 1px solid var(--color-gainsboro);
-  width: 411px;
-  height: 1px;
+    top: 81.5px;
+    left: -0.5px;
+    border-top: 1px solid var(--color-gainsboro);
+    width: 411px;
+    height: 1px;
 }
+
 .close-icon {
-  position: absolute;
-  top: 41px;
-  left: 366px;
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
+    position: absolute;
+    top: 41px;
+    left: 366px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
+
 .details,
 .image-2-icon {
-  position: absolute;
-  left: 24px;
+    position: absolute;
+    left: 24px;
 }
+
 .details {
-  top: 36px;
-  font-size: var(--font-size-xl);
-  font-family: var(--font-epilogue);
-  display: flex;
-  align-items: center;
-  width: 68px;
-  height: 30px;
+    top: 36px;
+    font-size: var(--font-size-xl);
+    font-family: var(--font-epilogue);
+    display: flex;
+    align-items: center;
+    width: 68px;
+    height: 30px;
 }
+
 .image-2-icon {
-  top: 99px;
-  border-radius: var(--br-9xs);
-  width: 362px;
-  height: 196px;
-  object-fit: cover;
+    top: 99px;
+    border-radius: var(--br-9xs);
+    width: 362px;
+    height: 196px;
+    object-fit: cover;
 }
+
 .superior-family-room {
-  top: 309px;
-  font-size: var(--font-size-base);
-  font-family: var(--font-inder);
-  display: flex;
-  align-items: center;
-  width: 171px;
-  height: 26px;
+    top: 309px;
+    font-size: var(--font-size-base);
+    font-family: var(--font-inder);
+    display: flex;
+    align-items: center;
+    width: 171px;
+    height: 26px;
 }
+
 .dates,
 .guests-4,
 .guests1,
 .superior-family-room {
-  position: absolute;
-  left: 24px;
+    position: absolute;
+    left: 24px;
 }
+
 .guests-4 {
-  top: 339px;
-  font-size: var(--font-size-2xs);
-  color: var(--color-dimgray-100);
-  display: flex;
-  align-items: center;
-  width: 177px;
-  height: 18px;
+    top: 339px;
+    font-size: var(--font-size-2xs);
+    color: var(--color-dimgray-100);
+    display: flex;
+    align-items: center;
+    width: 177px;
+    height: 18px;
 }
+
 .dates,
 .guests1 {
-  top: 373px;
-  border-radius: var(--br-9xs);
-  background-color: var(--color-whitesmoke-100);
-  width: 112px;
-  height: 48px;
+    top: 373px;
+    border-radius: var(--br-9xs);
+    background-color: var(--color-whitesmoke-100);
+    width: 112px;
+    height: 48px;
 }
+
 .guests1 {
-  left: 148px;
+    left: 148px;
 }
+
 .dates1,
 .guests2 {
-  position: absolute;
-  top: 379px;
-  left: 32px;
+    position: absolute;
+    top: 379px;
+    left: 32px;
 }
+
 .guests2 {
-  left: 156px;
+    left: 156px;
 }
+
 .guests3,
 .july-17- {
-  position: absolute;
-  top: 401px;
-  left: 32px;
+    position: absolute;
+    top: 401px;
+    left: 32px;
 }
+
 .guests3 {
-  left: 156px;
+    left: 156px;
 }
+
 .sunt-ut-elit {
-  margin: 0;
+    margin: 0;
 }
+
 .sunt-ut-elit-container,
 .view-more {
-  position: absolute;
-  left: 24px;
-  line-height: 22px;
-  display: inline-block;
+    position: absolute;
+    left: 24px;
+    line-height: 22px;
+    display: inline-block;
 }
+
 .sunt-ut-elit-container {
-  top: 437px;
-  color: var(--color-lightslategray);
-  width: 312px;
-  height: 110px;
+    top: 437px;
+    color: var(--color-lightslategray);
+    width: 312px;
+    height: 110px;
 }
+
 .view-more {
-  top: 563px;
-  text-decoration: underline;
-  color: #1091f4;
-  width: 61px;
-  height: 20px;
+    top: 563px;
+    text-decoration: underline;
+    color: #1091f4;
+    width: 61px;
+    height: 20px;
 }
+
 .inbox-right {
-  position: absolute;
-  top: 77px;
-  left: 1030px;
-  width: 410px;
-  height: 583px;
-  overflow: hidden;
-  font-size: var(--font-size-xs);
+    position: absolute;
+    top: 77px;
+    left: 1030px;
+    width: 410px;
+    height: 583px;
+    overflow: hidden;
+    font-size: var(--font-size-xs);
 }
+
 .inbox {
-  position: relative;
-  background-color: var(--color-white);
-  width: 100%;
-  height: 900px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-200);
-  font-family: var(--font-inter);
+    position: relative;
+    background-color: var(--color-white);
+    width: 100%;
+    height: 900px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
+    font-family: var(--font-inter);
 }
