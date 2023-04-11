@@ -1,725 +1,833 @@
 .logo-icon {
-  position: absolute;
-  top: 24px;
-  left: 20px;
-  width: 96px;
-  height: 28px;
-  object-fit: cover;
+    position: absolute;
+    top: 24px;
+    left: 20px;
+    width: 96px;
+    height: 28px;
+    object-fit: cover;
 }
+
+.header a:hover {
+    background-color: green;
+    color: green;
+}
+
 .discover,
 .experiences,
 .places-to-stay {
-  position: absolute;
-  height: 100%;
-  width: calc(100% - 213.33px);
-  top: 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+    position: absolute;
+    height: 100%;
+    width: calc(100% - 213.33px);
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
 .places-to-stay {
-  left: 0;
-  color: #0095a9;
+    left: 0;
+    color: #0095a9;
 }
+
 .discover,
 .experiences {
-  left: 106.67px;
+    left: 106.67px;
 }
+
 .discover {
-  left: 213.33px;
+    left: 213.33px;
 }
+
 .menu-items {
-  position: absolute;
-  height: calc(100% - 45px);
-  width: calc(100% - 1120px);
-  top: 22px;
-  right: 980px;
-  bottom: 23px;
-  left: 140px;
+    position: absolute;
+    height: calc(100% - 45px);
+    width: calc(100% - 1120px);
+    top: 22px;
+    right: 980px;
+    bottom: 23px;
+    left: 140px;
 }
+
 .avt-icon,
 .bells-icon,
 .globe-icon {
-  position: absolute;
-  top: 20px;
-  left: 1384px;
-  width: 36px;
-  height: 36px;
-  object-fit: cover;
+    position: absolute;
+    top: 20px;
+    left: 1384px;
+    width: 36px;
+    height: 36px;
+    object-fit: cover;
 }
+
 .bells-icon,
 .globe-icon {
-  top: 28px;
-  left: 1348px;
-  width: 20px;
-  height: 20px;
+    top: 28px;
+    left: 1348px;
+    width: 20px;
+    height: 20px;
 }
+
 .globe-icon {
-  left: 1276px;
+    left: 1276px;
 }
+
 .usd {
-  position: absolute;
-  top: 31px;
-  left: 1231px;
-  font-size: var(--font-size-xs);
-  color: var(--color-gray-200);
+    position: absolute;
+    top: 31px;
+    left: 1231px;
+    font-size: var(--font-size-xs);
+    color: var(--color-gray-200);
 }
+
 .chat-dogs-icon {
-  position: absolute;
-  top: 28px;
-  left: 1312px;
-  width: 20px;
-  height: 20px;
-  object-fit: cover;
+    position: absolute;
+    top: 28px;
+    left: 1312px;
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
+
 .header,
 .support1 {
-  position: absolute;
-  left: 0;
+    position: absolute;
+    left: 0;
 }
+
 .header {
-  top: 0;
-  border-bottom: 1px solid var(--color-gray-600);
-  box-sizing: border-box;
-  width: 1440px;
-  height: 77px;
-  overflow: hidden;
-  font-size: var(--font-size-sm);
-  color: var(--color-darkslategray-100);
+    top: 0;
+    border-bottom: 1px solid var(--color-gray-600);
+    box-sizing: border-box;
+    width: 1440px;
+    height: 77px;
+    overflow: hidden;
+    font-size: var(--font-size-sm);
+    color: var(--color-darkslategray-100);
 }
+
 .support1 {
-  top: -4px;
-  font-size: var(--font-size-xl);
+    top: -4px;
+    font-size: var(--font-size-xl);
 }
+
 .irure-in-molli {
-  position: absolute;
-  top: 42px;
-  left: 0;
+    position: absolute;
+    top: 42px;
+    left: 0;
 }
+
 .lorem-ea-quis,
 .officia-sit-laborum {
-  position: absolute;
-  top: 76px;
-  left: 0;
+    position: absolute;
+    top: 76px;
+    left: 0;
 }
+
 .lorem-ea-quis {
-  top: 110px;
+    top: 110px;
 }
+
 .about,
 .community,
 .support {
-  position: absolute;
-  top: 40px;
-  left: 132px;
-  width: 139px;
-  height: 132px;
-  overflow: hidden;
+    position: absolute;
+    top: 40px;
+    left: 132px;
+    width: 139px;
+    height: 132px;
+    overflow: hidden;
 }
+
 .about,
 .community {
-  left: 399px;
-  width: 127px;
+    left: 399px;
+    width: 127px;
 }
+
 .about {
-  left: 654px;
-  width: 64px;
+    left: 654px;
+    width: 64px;
 }
+
 .subscribe-to-our {
-  position: absolute;
-  top: 0;
-  left: 0;
-  font-size: var(--font-size-xl);
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: var(--font-size-xl);
 }
+
 .for-announcements-and {
-  position: absolute;
-  top: 31px;
-  left: 0;
-  color: var(--color-darkslategray-100);
+    position: absolute;
+    top: 31px;
+    left: 0;
+    color: var(--color-darkslategray-100);
 }
+
 .input-your-email,
 .subscribe {
-  position: absolute;
-  top: 62px;
-  border-radius: var(--br-9xs);
-  height: 36px;
+    position: absolute;
+    top: 62px;
+    border-radius: var(--br-9xs);
+    height: 36px;
 }
+
 .input-your-email {
-  left: 0;
-  background-color: var(--color-whitesmoke);
-  border: 1px solid var(--color-lightslategray);
-  box-sizing: border-box;
-  width: 224px;
+    left: 0;
+    background-color: var(--color-whitesmoke);
+    border: 1px solid var(--color-lightslategray);
+    box-sizing: border-box;
+    width: 224px;
 }
+
 .subscribe {
-  left: 232px;
-  background-color: var(--color-darkturquoise);
-  width: 102px;
+    left: 232px;
+    background-color: var(--color-darkturquoise);
+    width: 102px;
 }
+
 .subscribe1 {
-  position: absolute;
-  top: 71px;
-  left: 250px;
-  font-size: var(--font-size-sm);
-  color: var(--color-white);
+    position: absolute;
+    top: 71px;
+    left: 250px;
+    font-size: var(--font-size-sm);
+    color: var(--color-white);
 }
+
 .input-your-email1 {
-  position: absolute;
-  top: 72px;
-  left: 34px;
-  color: var(--color-lightslategray);
+    position: absolute;
+    top: 72px;
+    left: 34px;
+    color: var(--color-lightslategray);
 }
+
 .input,
 .left-icon-1 {
-  position: absolute;
-  top: 72px;
-  left: 11px;
-  width: 16px;
-  height: 16px;
-  overflow: hidden;
+    position: absolute;
+    top: 72px;
+    left: 11px;
+    width: 16px;
+    height: 16px;
+    overflow: hidden;
 }
+
 .input {
-  top: 40px;
-  left: 846px;
-  width: 334px;
-  height: 98px;
-  font-size: var(--font-size-xs);
+    top: 40px;
+    left: 846px;
+    width: 334px;
+    height: 98px;
+    font-size: var(--font-size-xs);
 }
+
 .footer-child {
-  position: absolute;
-  top: 211.5px;
-  left: 131.5px;
-  border-top: 1px solid var(--color-gainsboro);
-  box-sizing: border-box;
-  width: 1177px;
-  height: 1px;
+    position: absolute;
+    top: 211.5px;
+    left: 131.5px;
+    border-top: 1px solid var(--color-gainsboro);
+    box-sizing: border-box;
+    width: 1177px;
+    height: 1px;
 }
+
 .company-inc,
 .div {
-  position: absolute;
-  top: 0;
+    position: absolute;
+    top: 0;
 }
+
 .company-inc {
-  left: 0;
-  font-size: var(--font-size-sm);
-  display: flex;
-  align-items: center;
-  width: 150px;
-  height: 22px;
+    left: 0;
+    font-size: var(--font-size-sm);
+    display: flex;
+    align-items: center;
+    width: 150px;
+    height: 22px;
 }
+
 .div {
-  left: 154px;
-  width: 8px;
+    left: 154px;
+    width: 8px;
 }
+
 .div,
 .div1,
 .privacy {
-  display: flex;
-  align-items: center;
-  height: 22px;
+    display: flex;
+    align-items: center;
+    height: 22px;
 }
+
 .div1 {
-  position: absolute;
-  top: 0;
-  left: 219px;
-  width: 8px;
+    position: absolute;
+    top: 0;
+    left: 219px;
+    width: 8px;
 }
+
 .privacy {
-  left: 166px;
-  width: 49px;
+    left: 166px;
+    width: 49px;
 }
+
 .ins-icon,
 .privacy,
 .terms {
-  position: absolute;
-  top: 0;
+    position: absolute;
+    top: 0;
 }
+
 .terms {
-  left: 231px;
-  display: flex;
-  align-items: center;
-  width: 42px;
-  height: 22px;
+    left: 231px;
+    display: flex;
+    align-items: center;
+    width: 42px;
+    height: 22px;
 }
+
 .ins-icon {
-  left: 1156px;
-  height: 20px;
+    left: 1156px;
+    height: 20px;
 }
+
 .fb-icon,
 .globe-icon1,
 .ins-icon {
-  width: 20px;
-  object-fit: cover;
+    width: 20px;
+    object-fit: cover;
 }
+
 .fb-icon {
-  position: absolute;
-  top: 0;
-  left: 1084px;
-  height: 20px;
+    position: absolute;
+    top: 0;
+    left: 1084px;
+    height: 20px;
 }
+
 .globe-icon1 {
-  left: 1048px;
+    left: 1048px;
 }
+
 .globe-icon1,
 .twitter-icon,
 .usd1 {
-  position: absolute;
-  top: 0;
-  height: 20px;
+    position: absolute;
+    top: 0;
+    height: 20px;
 }
+
 .twitter-icon {
-  left: 1120px;
-  width: 20px;
-  object-fit: cover;
+    left: 1120px;
+    width: 20px;
+    object-fit: cover;
 }
+
 .usd1 {
-  left: 1006px;
-  display: flex;
-  align-items: center;
-  width: 26px;
+    left: 1006px;
+    display: flex;
+    align-items: center;
+    width: 26px;
 }
+
 .company-inc-parent,
 .footer {
-  position: absolute;
-  top: 233px;
-  left: 132px;
-  width: 1176px;
-  height: 22px;
-  font-size: var(--font-size-xs);
+    position: absolute;
+    top: 233px;
+    left: 132px;
+    width: 1176px;
+    height: 22px;
+    font-size: var(--font-size-xs);
 }
+
 .footer {
-  top: 2726px;
-  left: 0;
-  background-color: var(--color-whitesmoke);
-  width: 1440px;
-  height: 275px;
-  overflow: hidden;
-  text-align: left;
-  font-size: var(--font-size-sm);
-  color: var(--color-gray-200);
+    top: 2726px;
+    left: 0;
+    background-color: var(--color-whitesmoke);
+    width: 1440px;
+    height: 275px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-200);
 }
+
 .img-to-nhat-child {
-  position: absolute;
-  top: 652px;
-  left: 563px;
-  border-radius: 3px;
-  background-color: var(--color-darkslategray-200);
-  width: 20px;
-  height: 6px;
+    position: absolute;
+    top: 652px;
+    left: 563px;
+    border-radius: 3px;
+    background-color: var(--color-darkslategray-200);
+    width: 20px;
+    height: 6px;
 }
+
 .ellipse-icon,
 .image-4-icon,
 .img-to-nhat-inner,
 .img-to-nhat-item {
-  position: absolute;
-  top: 652px;
-  left: 587px;
-  width: 6px;
-  height: 6px;
+    position: absolute;
+    top: 652px;
+    left: 587px;
+    width: 6px;
+    height: 6px;
 }
+
 .ellipse-icon,
 .image-4-icon,
 .img-to-nhat-inner {
-  left: 597px;
+    left: 597px;
 }
+
 .ellipse-icon,
 .image-4-icon {
-  left: 607px;
+    left: 607px;
 }
+
 .image-4-icon {
-  top: 0;
-  left: 0;
-  border-radius: var(--br-9xs);
-  width: 1176px;
-  height: 640px;
-  object-fit: cover;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-9xs);
+    width: 1176px;
+    height: 640px;
+    object-fit: cover;
 }
+
 .awaken-to-a {
-  position: absolute;
-  top: 289px;
-  left: 371px;
-  line-height: 48px;
+    position: absolute;
+    top: 289px;
+    left: 371px;
+    line-height: 48px;
 }
+
 .img-to-nhat {
-  position: absolute;
-  top: 148px;
-  left: 132px;
-  width: 1176px;
-  height: 658px;
-  font-size: var(--font-size-13xl);
+    position: absolute;
+    top: 148px;
+    left: 132px;
+    width: 1176px;
+    height: 658px;
+    font-size: var(--font-size-13xl);
 }
+
 .a-signature-of {
-  position: absolute;
-  top: 864px;
-  left: 132px;
-  font-size: var(--font-size-5xl);
-  line-height: 36px;
-  font-family: var(--font-epilogue);
-  color: var(--color-gray-200);
-  text-align: left;
+    position: absolute;
+    top: 864px;
+    left: 132px;
+    font-size: var(--font-size-5xl);
+    line-height: 36px;
+    font-family: var(--font-epilogue);
+    color: var(--color-gray-200);
+    text-align: left;
 }
+
 .image-5-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-5xs);
-  width: 276px;
-  height: 320px;
-  object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    width: 276px;
+    height: 320px;
+    object-fit: cover;
 }
+
 .text-perfect {
-  position: absolute;
-  top: 327px;
-  left: 12px;
-  font-size: var(--font-size-xl);
-  line-height: 30px;
-  color: var(--color-gray-200);
+    position: absolute;
+    top: 327px;
+    left: 12px;
+    font-size: var(--font-size-xl);
+    line-height: 30px;
+    color: var(--color-gray-200);
 }
+
 .div2,
 .miles-away,
 .properties {
-  position: absolute;
-  top: 362px;
-  left: 12px;
-  line-height: 20px;
+    position: absolute;
+    top: 362px;
+    left: 12px;
+    line-height: 20px;
 }
+
 .div2,
 .miles-away {
-  left: 109px;
+    left: 109px;
 }
+
 .miles-away {
-  left: 118px;
+    left: 118px;
 }
+
 .phap {
-  position: absolute;
-  top: 926px;
-  left: 132px;
-  width: 276px;
-  height: 382px;
-  color: var(--color-lightslategray);
+    position: absolute;
+    top: 926px;
+    left: 132px;
+    width: 276px;
+    height: 382px;
+    color: var(--color-lightslategray);
 }
+
 .miles-away1 {
-  position: absolute;
-  top: 362px;
-  left: 119px;
-  line-height: 20px;
+    position: absolute;
+    top: 362px;
+    left: 119px;
+    line-height: 20px;
 }
+
 .amalfi,
 .canada,
 .dubai {
-  position: absolute;
-  top: 926px;
-  left: 432px;
-  width: 276px;
-  height: 382px;
-  color: var(--color-lightslategray);
+    position: absolute;
+    top: 926px;
+    left: 432px;
+    width: 276px;
+    height: 382px;
+    color: var(--color-lightslategray);
 }
+
 .amalfi,
 .canada {
-  left: 732px;
+    left: 732px;
 }
+
 .amalfi {
-  left: 1032px;
+    left: 1032px;
 }
+
 .image-9-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-5xs);
-  width: 340px;
-  height: 480px;
-  object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    width: 340px;
+    height: 480px;
+    object-fit: cover;
 }
+
 .outdoor-getaways1,
 .stays {
-  position: absolute;
-  top: 404px;
-  left: 20px;
-  line-height: 30px;
+    position: absolute;
+    top: 404px;
+    left: 20px;
+    line-height: 30px;
 }
+
 .stays {
-  top: 434px;
-  font-size: var(--font-size-xs);
-  line-height: 20px;
-  color: var(--color-gray-100);
+    top: 434px;
+    font-size: var(--font-size-xs);
+    line-height: 20px;
+    color: var(--color-gray-100);
 }
+
 .outdoor-getaways {
-  position: absolute;
-  top: 1372px;
-  left: 190px;
-  width: 340px;
-  height: 480px;
-  font-size: var(--font-size-xl);
+    position: absolute;
+    top: 1372px;
+    left: 190px;
+    width: 340px;
+    height: 480px;
+    font-size: var(--font-size-xl);
 }
+
 .image-10-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-5xs);
-  width: 340px;
-  height: 230px;
-  object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    width: 340px;
+    height: 230px;
+    object-fit: cover;
 }
+
 .stays1,
 .unique-destinations1 {
-  position: absolute;
-  top: 154px;
-  left: 20px;
-  line-height: 30px;
+    position: absolute;
+    top: 154px;
+    left: 20px;
+    line-height: 30px;
 }
+
 .stays1 {
-  top: 184px;
-  font-size: var(--font-size-xs);
-  line-height: 20px;
-  color: var(--color-gray-100);
+    top: 184px;
+    font-size: var(--font-size-xs);
+    line-height: 20px;
+    color: var(--color-gray-100);
 }
+
 .entire-homes,
 .pet-allowed,
 .unique-destinations {
-  position: absolute;
-  top: 1372px;
-  left: 550px;
-  width: 340px;
-  height: 230px;
-  font-size: var(--font-size-xl);
+    position: absolute;
+    top: 1372px;
+    left: 550px;
+    width: 340px;
+    height: 230px;
+    font-size: var(--font-size-xl);
 }
+
 .entire-homes,
 .pet-allowed {
-  top: 1622px;
+    top: 1622px;
 }
+
 .pet-allowed {
-  top: 1372px;
-  left: 910px;
-  height: 480px;
+    top: 1372px;
+    left: 910px;
+    height: 480px;
 }
+
 .find-a-new {
-  position: absolute;
-  top: 1913px;
-  left: 124px;
-  font-size: var(--font-size-5xl);
-  line-height: 36px;
-  font-family: var(--font-epilogue);
-  color: var(--color-gray-200);
+    position: absolute;
+    top: 1913px;
+    left: 124px;
+    font-size: var(--font-size-5xl);
+    line-height: 36px;
+    font-family: var(--font-epilogue);
+    color: var(--color-gray-200);
 }
+
 .image-14-icon {
-  position: absolute;
-  top: 0;
-  left: 0;
-  border-radius: var(--br-5xs);
-  width: 576px;
-  height: 626px;
-  object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-5xs);
+    width: 576px;
+    height: 626px;
+    object-fit: cover;
 }
+
 .things-to-do {
-  margin: 0;
+    margin: 0;
 }
+
 .things-to-do-container {
-  position: absolute;
-  top: 52px;
-  left: 56px;
-  line-height: 56px;
+    position: absolute;
+    top: 52px;
+    left: 56px;
+    line-height: 56px;
 }
+
 .things-to-do-from-home-child {
-  position: absolute;
-  top: 180px;
-  left: 56px;
-  border-radius: var(--br-7xs);
-  background-color: var(--color-white);
-  width: 151px;
-  height: 36px;
+    position: absolute;
+    top: 180px;
+    left: 56px;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-white);
+    width: 151px;
+    height: 36px;
 }
+
 .online-experiences {
-  position: absolute;
-  top: 187px;
-  left: 68px;
-  font-size: var(--font-size-sm);
-  line-height: 22px;
-  color: var(--color-gray-200);
-  text-align: center;
+    position: absolute;
+    top: 187px;
+    left: 68px;
+    font-size: var(--font-size-sm);
+    line-height: 22px;
+    color: var(--color-gray-200);
+    text-align: center;
 }
+
 .things-to-do-from-home {
-  position: absolute;
-  top: 1972px;
-  left: 732px;
-  width: 576px;
-  height: 626px;
-  text-align: left;
-  font-size: var(--font-size-21xl);
+    position: absolute;
+    top: 1972px;
+    left: 732px;
+    width: 576px;
+    height: 626px;
+    text-align: left;
+    font-size: var(--font-size-21xl);
 }
+
 .adventure-path-for-your-trip-child {
-  position: absolute;
-  top: 180px;
-  left: 56px;
-  border-radius: var(--br-7xs);
-  background-color: var(--color-white);
-  width: 105px;
-  height: 36px;
+    position: absolute;
+    top: 180px;
+    left: 56px;
+    border-radius: var(--br-7xs);
+    background-color: var(--color-white);
+    width: 105px;
+    height: 36px;
 }
+
 .adventure-path-for-your-trip {
-  position: absolute;
-  top: 1972px;
-  left: 132px;
-  width: 576px;
-  height: 626px;
-  text-align: left;
-  font-size: var(--font-size-21xl);
+    position: absolute;
+    top: 1972px;
+    left: 132px;
+    width: 576px;
+    height: 626px;
+    text-align: left;
+    font-size: var(--font-size-21xl);
 }
+
 .group-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: var(--color-white);
-  width: 224px;
-  height: 58px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: var(--color-white);
+    width: 224px;
+    height: 58px;
 }
+
 .location,
 .where-are-you {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 48px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 60px;
-  height: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 48px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 22px;
 }
+
 .where-are-you {
-  top: 22px;
-  color: var(--color-gray-300);
-  width: 146px;
+    top: 22px;
+    color: var(--color-gray-300);
+    width: 146px;
 }
+
 .location-parent {
-  position: absolute;
-  top: 7px;
-  left: 12px;
-  width: 146px;
-  height: 44px;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    width: 146px;
+    height: 44px;
 }
+
 .rectangle-parent {
-  position: absolute;
-  top: 12px;
-  left: 20px;
-  width: 224px;
-  height: 58px;
+    position: absolute;
+    top: 12px;
+    left: 20px;
+    width: 224px;
+    height: 58px;
 }
+
 .group-item,
 .pick-date {
-  position: absolute;
-  left: 0;
+    position: absolute;
+    left: 0;
 }
+
 .group-item {
-  top: 0;
-  background-color: var(--color-white);
-  width: 148px;
-  height: 58px;
+    top: 0;
+    background-color: var(--color-white);
+    width: 148px;
+    height: 58px;
 }
+
 .pick-date {
-  top: 22px;
-  line-height: 48px;
-  font-weight: 500;
-  color: var(--color-gray-300);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 67px;
-  height: 22px;
+    top: 22px;
+    line-height: 48px;
+    font-weight: 500;
+    color: var(--color-gray-300);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 67px;
+    height: 22px;
 }
+
 .check-in-parent {
-  position: absolute;
-  top: 7px;
-  left: 12px;
-  width: 67px;
-  height: 44px;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    width: 67px;
+    height: 44px;
 }
+
 .check-out,
 .rectangle-group {
-  position: absolute;
-  top: 12px;
-  left: 260px;
-  width: 148px;
-  height: 58px;
+    position: absolute;
+    top: 12px;
+    left: 260px;
+    width: 148px;
+    height: 58px;
 }
+
 .check-out {
-  top: 0;
-  left: 0;
-  line-height: 48px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 69px;
-  height: 22px;
+    top: 0;
+    left: 0;
+    line-height: 48px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 69px;
+    height: 22px;
 }
+
 .check-out-parent {
-  position: absolute;
-  top: 7px;
-  left: 12px;
-  width: 69px;
-  height: 44px;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    width: 69px;
+    height: 44px;
 }
+
 .rectangle-container {
-  position: absolute;
-  top: 12px;
-  left: 424px;
-  width: 148px;
-  height: 58px;
+    position: absolute;
+    top: 12px;
+    left: 424px;
+    width: 148px;
+    height: 58px;
 }
+
 .add-guest,
 .guests {
-  position: absolute;
-  top: 0;
-  left: 0;
-  line-height: 48px;
-  font-weight: 500;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 49px;
-  height: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 48px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 49px;
+    height: 22px;
 }
+
 .add-guest {
-  top: 22px;
-  color: var(--color-gray-300);
-  width: 69px;
+    top: 22px;
+    color: var(--color-gray-300);
+    width: 69px;
 }
+
 .frame-child,
 .group-div {
-  position: absolute;
-  top: 12px;
-  left: 588px;
-  width: 148px;
-  height: 58px;
+    position: absolute;
+    top: 12px;
+    left: 588px;
+    width: 148px;
+    height: 58px;
 }
+
 .frame-child {
-  left: 752px;
-  width: 52px;
-  height: 52px;
+    left: 752px;
+    width: 52px;
+    height: 52px;
 }
+
 .group-parent,
 .home {
-  background-color: var(--color-white);
-  overflow: hidden;
+    background-color: var(--color-white);
+    overflow: hidden;
 }
+
 .group-parent {
-  position: absolute;
-  top: 116px;
-  left: 312px;
-  border-radius: 38px;
-  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
-  border: 0.2px solid rgba(0, 0, 0, 0.5);
-  box-sizing: border-box;
-  width: 816px;
-  height: 76px;
-  font-size: var(--font-size-sm);
-  color: var(--color-black);
+    position: absolute;
+    top: 116px;
+    left: 312px;
+    border-radius: 38px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 0.2px solid rgba(0, 0, 0, 0.5);
+    box-sizing: border-box;
+    width: 816px;
+    height: 76px;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
 }
+
 .home {
-  position: relative;
-  width: 100%;
-  height: 3001px;
-  text-align: center;
-  font-size: var(--font-size-xs);
-  color: var(--color-white);
-  font-family: var(--font-inter);
+    position: relative;
+    width: 100%;
+    height: 3001px;
+    text-align: center;
+    font-size: var(--font-size-xs);
+    color: var(--color-white);
+    font-family: var(--font-inter);
 }
