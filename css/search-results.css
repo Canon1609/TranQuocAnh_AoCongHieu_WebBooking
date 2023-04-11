@@ -11,6 +11,11 @@
     height: 24px;
 }
 
+.avt-parent a:hover {
+    background-color: green;
+    color: green;
+}
+
 .photo-1631049552057-403cdb8f06-parent a:hover {
     color: green;
     background-color: aquamarine;
