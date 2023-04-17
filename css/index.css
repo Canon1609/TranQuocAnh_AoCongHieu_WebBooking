@@ -12,6 +12,13 @@
     color: green;
 }
 
+#right3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1000px;
+    width: 25%;
+}
+
 .discover,
 .experiences,
 .places-to-stay {

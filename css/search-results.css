@@ -11,6 +11,13 @@
     height: 24px;
 }
 
+#right3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1000px;
+    width: 25%;
+}
+
 .avt-parent a:hover {
     background-color: green;
     color: green;

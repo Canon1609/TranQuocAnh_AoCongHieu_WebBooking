@@ -50,6 +50,13 @@
     object-fit: cover;
 }
 
+#right3 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1000px;
+    width: 25%;
+}
+
 .bells-icon1,
 .globe-icon2 {
     top: 28px;
